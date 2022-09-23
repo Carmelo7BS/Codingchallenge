@@ -1,0 +1,77 @@
+body{
+  background-size: cover;
+  background-image:  url("background.jpg");
+}
+
+.container{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+  width: 1000px;
+  margin:auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  padding-bottom: 60px;
+}
+/* logo e intestazione */
+img{
+  margin-top: 50px;
+  width: 180px;
+  height: 80px;
+}
+.block1{
+  text-align: center;
+}
+
+.block1 > h1{
+  font-family: "Comic Sans MS";
+  color: lime;
+  margin-bottom: 5px;
+}
+/* Barra */
+.barra{
+  background-color: lime;
+  padding: 14px;
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+/* 3 paragrafi */
+.block2{
+  margin-left: 85px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.pararagrafi > h1{
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.pararagrafi > h3{
+  margin: 5px;
+}
+
+#primodivisore{
+  background-color: orange;
+  border-radius: 5px;
+  border-style: solid;
+  margin-right: 600px;
+  padding: 14px;
+}
+
+#secondodivisore{
+  background-color: limegreen;
+  border-radius: 5px;
+  border-style: solid;
+  margin-right: 420px;
+  padding: 14px;
+}
+
+#terzodivisore{
+  background-color: crimson;
+  border-radius: 5px;
+  border-style: solid;
+  margin-right: 780px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
